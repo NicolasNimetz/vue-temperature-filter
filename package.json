@@ -1,6 +1,21 @@
 {
   "name": "vue-temperature-filter",
   "version": "0.1.0",
+  "description": "Pluging filter temperature by Nicolas Nimetz",
+  "keywords": [
+    "vuejs",
+    "weather",
+    "vuejs-filter"
+  ],
+  "author": "Nicolas Nimetz",
+  "main": "src/VueTemperatureFilter.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasNimetz/vue-temperature-filter"
+  },
+  "bugs": {
+    "url": "https://github.com/NicolasNimetz/vue-temperature-filter/issues"
+  },
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve --open",
