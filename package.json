@@ -1,10 +1,12 @@
 {
   "name": "vue-temperature-filter",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
+    "test": "vue-cli-service test",
+    "test:coverage": "vue-cli-service test --coverage",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -13,7 +15,14 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-beta.6",
     "@vue/cli-service": "^3.0.0-beta.6",
+    "@vue/test-utils": "^1.0.0-beta.10",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^22.0.4",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-nnimetz": "^0.0.2",
     "vue-template-compiler": "^2.5.13"
   },
   "babel": {
@@ -24,8 +33,12 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:vue/recommended",
+      "airbnb-base",
+      "plugin:nnimetz/recommended"
+    ],
+    "plugins": [
+      "nnimetz"
     ]
   },
   "postcss": {

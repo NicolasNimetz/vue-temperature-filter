@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js:
+  - 'stable'
+  - '8'
+  - '6'
+
+cache: yarn
+
+script:
+  - yarn run lint
+  - yarn run test:coverage
