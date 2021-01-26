@@ -2,8 +2,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/vue-temperature-filter.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/vue-temperature-filter
-[travis-image]: https://travis-ci.org/NicolasNimetz/vue-temperature-filter.svg?branch=master
-[travis-url]: https://travis-ci.org/NicolasNimetz/vue-temperature-filter
+[travis-image]: https://travis-ci.com/NicolasNimetz/vue-temperature-filter.svg?branch=master
+[travis-url]: https://travis-ci.com/github/NicolasNimetz/vue-temperature-filter
 [airbnb-image]: https://img.shields.io/badge/code%20style-airbnb-blue.svg?style=flat-square
 [airbnb-url]: https://github.com/airbnb/javascript
 [jest-image]: https://facebook.github.io/jest/img/jest-badge.svg
