@@ -1,44 +1,37 @@
 {
   "name": "vue-temperature-filter",
   "version": "0.1.0",
-  "description": "Pluging filter temperature by Nicolas Nimetz",
-  "keywords": [
-    "vuejs",
-    "weather",
-    "vuejs-filter"
-  ],
-  "author": "Nicolas Nimetz",
-  "main": "src/VueTemperatureFilter.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NicolasNimetz/vue-temperature-filter"
-  },
-  "bugs": {
-    "url": "https://github.com/NicolasNimetz/vue-temperature-filter/issues"
-  },
   "private": false,
+  "description": "Pluging filter temperature by Nicolas Nimetz",
+  "author": "Nicolas Nimetz",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "test": "vue-cli-service test",
-    "test:coverage": "vue-cli-service test --coverage",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit",
+    "test:coverage": "vue-cli-service test:unit --coverage"
   },
+  "main": "src/VueTemperatureFilter.js",
   "dependencies": {
-    "vue": "^2.5.13"
+    "core-js": "3.6.5",
+    "vue": "2.6.12"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
-    "@vue/cli-plugin-unit-jest": "^3.0.0-beta.6",
-    "@vue/cli-service": "^3.0.0-beta.6",
-    "@vue/test-utils": "^1.0.0-beta.10",
-    "babel-core": "^7.0.0-0",
-    "babel-jest": "^22.0.4",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-nnimetz": "^0.0.2",
-    "vue-template-compiler": "^2.5.13"
+    "@babel/core": "7.12.10",
+    "@vue/cli-plugin-babel": "4.5.11",
+    "@vue/cli-plugin-eslint": "4.5.11",
+    "@vue/cli-plugin-unit-jest": "4.5.11",
+    "@vue/cli-service": "4.5.11",
+    "@vue/test-utils": "1.1.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "22.4.1",
+    "eslint": "6.7.2",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-nnimetz": "0.0.2",
+    "eslint-plugin-vue": "6.2.2",
+    "vue-template-compiler": "2.6.12"
   },
   "babel": {
     "presets": [
@@ -65,5 +58,17 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/NicolasNimetz/vue-temperature-filter/issues"
+  },
+  "keywords": [
+    "vuejs",
+    "weather",
+    "vuejs-filter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasNimetz/vue-temperature-filter"
+  }
 }
