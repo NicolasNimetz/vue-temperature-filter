@@ -2,8 +2,11 @@ sudo: false
 language: node_js
 node_js:
   - 'stable'
-  - '8'
-  - '6'
+  - '14'
+  - '13'
+  - '12'
+  - '11'
+  - '10'
 
 cache: yarn
 
